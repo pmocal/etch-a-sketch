@@ -6,7 +6,8 @@ for (i = 0; i < 380; i++) {
 	content1.style.backgroundColor = getRandomColor();
     content1.onmouseover = 
      function() { 
-         this.style.backgroundColor='black'; 
+         this.style.backgroundColor=getRandomColor();
+         this.style.opacity = 0.1;
      };
 	container.appendChild(content1);
 }
@@ -31,7 +32,8 @@ function myFunction() {
     content1.style.backgroundColor = getRandomColor();
     content1.onmouseover = 
      function() { 
-         this.style.backgroundColor='black'; 
+         this.style.backgroundColor=getRandomColor();
+         this.style.opacity = 0.1; 
      };
     content.appendChild(content1);
  }
