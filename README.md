@@ -1,3 +1,3 @@
 # etch-a-sketch
 
-![screenshot](readme.png)
+[![screenshot](readme.png)](https://etch-a-sketcher.herokuapp.com/)
